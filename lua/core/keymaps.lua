@@ -13,3 +13,6 @@ vim.keymap.set("v", "<A-k>", ":m '<-2<CR>gv=gv")
 -- Normal mode
 vim.keymap.set("n", "<A-j>", ":m .+1<CR>==")
 vim.keymap.set("n", "<A-k>", ":m .-2<CR>==")
+
+-- Insert a new line below without entering insert mode.
+vim.keymap.set("n", "<leader>o", "o<Esc>")
