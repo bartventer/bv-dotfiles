@@ -39,6 +39,8 @@ null_ls.setup({
 		formatting.prettierd,
 		-- python
 		formatting.black,
+		-- go
+		formatting.goimports_reviser,
 	},
 	on_attach = function(client, bufnr)
 		enable_format_on_save(client, bufnr)

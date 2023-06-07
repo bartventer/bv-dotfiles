@@ -42,7 +42,7 @@ require("dashboard").setup({
 			},
 			-- Edit the dotfile.
 			{
-				desc = "  Config",
+				desc = " Config",
 				group = "Number",
 				-- Edit the dotfile and set the working directory to the dotfile directory, and with NvimTree open.
 				action = "edit " .. dotfile .. " | lcd " .. vim.fn.fnamemodify(dotfile, ":h") .. " | NvimTreeToggle",
@@ -50,7 +50,7 @@ require("dashboard").setup({
 			},
 			-- Quit dashboard.
 			{
-				desc = "  Quit",
+				desc = " Quit",
 				group = "DiagnosticHint",
 				action = "quit",
 				key = "q",
